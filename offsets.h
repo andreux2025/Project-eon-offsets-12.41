@@ -8,6 +8,7 @@ namespace Offsets
 	constexpr int32 ProcessEventIdx   = 0x00000042;
 }
 class UStaticMeshComponent*                   CrateStaticMesh;                                   // 0x08D8
-class UStaticMeshComponent*                   StaticMesh;                                        // 0x0790 // BONEARRAY????
+class UStaticMeshComponent*                   bonearray?;                                        // 0x0790 // BONEARRAY????
 class ULevel*                                 PersistentLevel;                                   // 0x0030
 class UGameInstance*                          OwningGameInstance;                                // 0x0188
+class AGameStateBase*                         GameState;                                         // 0x0130
