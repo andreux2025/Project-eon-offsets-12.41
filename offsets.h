@@ -7,3 +7,5 @@ namespace Offsets
 	constexpr int32 ProcessEvent      = 0x02E13BF0;
 	constexpr int32 ProcessEventIdx   = 0x00000042;
 }
+class UStaticMeshComponent*                   CrateStaticMesh;                                   // 0x08D8
+class UStaticMeshComponent*                   StaticMesh;                                        // 0x0790 // BONEARRAY????
