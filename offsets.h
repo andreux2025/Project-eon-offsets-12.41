@@ -9,3 +9,5 @@ namespace Offsets
 }
 class UStaticMeshComponent*                   CrateStaticMesh;                                   // 0x08D8
 class UStaticMeshComponent*                   StaticMesh;                                        // 0x0790 // BONEARRAY????
+class ULevel*                                 PersistentLevel;                                   // 0x0030
+class UGameInstance*                          OwningGameInstance;                                // 0x0188
