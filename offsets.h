@@ -19,3 +19,9 @@ class APlayerCameraManager*                   PlayerCameraManager;              
 class USkeletalMeshComponent*                 Mesh;                                              // 0x0278
 class APlayerState*                           PlayerState;                                       // 0x0220
 class USceneComponent*                        RootComponent;                                     // 0x0130
+uint8                                         bIsDying : 1;                                      // 0x0520
+class AFortWeapon*                            CurrentWeapon;                                     // 0x0588
+class UFortWeaponItemDefinition*              WeaponData;                                        // 0x0358
+uint8                                         TeamIndex;                                         // 0x0E60
+TArray<class APlayerState*>                   PlayerArray;                                       // 0x0230
+class APawn*                                  PawnPrivate;                                       // 0x0278
