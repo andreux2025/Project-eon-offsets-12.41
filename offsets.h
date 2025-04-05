@@ -25,3 +25,6 @@ class UFortWeaponItemDefinition*              WeaponData;                       
 uint8                                         TeamIndex;                                         // 0x0E60
 TArray<class APlayerState*>                   PlayerArray;                                       // 0x0230
 class APawn*                                  PawnPrivate;                                       // 0x0278
+
+StaticFindObject: 0x2e1c4b0
+	StaticLoadObject: 0x2e1d7a0
