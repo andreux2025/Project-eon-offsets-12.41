@@ -12,3 +12,4 @@ class UStaticMeshComponent*                   bonearray?;                       
 class ULevel*                                 PersistentLevel;                                   // 0x0030
 class UGameInstance*                          OwningGameInstance;                                // 0x0188
 class AGameStateBase*                         GameState;                                         // 0x0130
+TArray<class ULocalPlayer*>                   LocalPlayers;                                      // 0x0038
