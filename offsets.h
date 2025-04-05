@@ -13,3 +13,9 @@ class ULevel*                                 PersistentLevel;                  
 class UGameInstance*                          OwningGameInstance;                                // 0x0188
 class AGameStateBase*                         GameState;                                         // 0x0130
 TArray<class ULocalPlayer*>                   LocalPlayers;                                      // 0x0038
+class APlayerController*                      PlayerController;                                  // 0x0030
+class APawn*                                  AcknowledgedPawn;                                  // 0x0298
+class APlayerCameraManager*                   PlayerCameraManager;                               // 0x02B0
+class USkeletalMeshComponent*                 Mesh;                                              // 0x0278
+class APlayerState*                           PlayerState;                                       // 0x0220
+class USceneComponent*                        RootComponent;                                     // 0x0130
